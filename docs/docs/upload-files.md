@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Upload files with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and use TypeScript language.
-  - name: keywords
-    content: upload files ts.ed express typescript multer node.js javascript decorators
+head:
+  - - meta
+    - name: description
+      content: Upload files with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and use TypeScript language.
+  - - meta
+    - name: keywords
+      content: upload files ts.ed express typescript multer node.js javascript decorators
 projects:
   - title: Kit Multer
     href: https://github.com/tsedio/tsed-example-multer

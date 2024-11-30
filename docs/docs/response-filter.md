@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over response filters provided by Ts.ED framework. Use class to transform data before returning it to your consumer.
-  - name: keywords
-    content: response filter ts.ed express typescript node.js javascript decorators jsonschema class models
+head:
+  - - meta
+    - name: description
+      content: Documentation over response filters provided by Ts.ED framework. Use class to transform data before returning it to your consumer.
+  - - meta
+    - name: keywords
+      content: response filter ts.ed express typescript node.js javascript decorators jsonschema class models
 ---
 
 # Response Filter

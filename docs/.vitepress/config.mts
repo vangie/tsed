@@ -1,14 +1,15 @@
 import {apiAnchor} from "@tsed/vitepress-theme/markdown/api-anchor/api-anchor.js";
 import {defineConfig} from "vitepress";
 import pkg from "../../package.json";
-import {getSidebar} from "./api.js";
+import referenceSidebar from "../public/reference-sidebar.json";
+import team from "../team.json";
 
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Ts.ED",
+  title: "Ts.ED a modern Node.js/Bun.js framework built with TypeScript",
   lastUpdated: true,
-
+  description: "Ts.ED offers a flexible and easy-to-learn structure designed to enhance the developer experience. It provides decorators, guidelines, and supports Node.js, Bun.js, Express, Koa, CLI, and serverless architectures (e.g., AWS).",
   sitemap: {
     hostname: "https://tsed.io"
   },
@@ -26,13 +27,26 @@ export default defineConfig({
     ["meta", {property: "og:title", content: "Ts.ED - A Node.js and TypeScript Framework on top of Express/Koa.js."}],
     ["meta", {property: "og:site_name", content: "Ts.ED"}],
     ["meta", {property: "og:image", content: "https://tsed.dev/tsed-og.png"}],
-    ["meta", {property: "og:url", content: "https://tsed.dev/"}]
+    ["meta", {property: "og:url", content: "https://tsed.dev/"}],
+    [
+      "script",
+      {async: "", src: "https://www.googletagmanager.com/gtag/js?id=G-3M3Q4QME6H&cx=c&_slc=1"}
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3M3Q4QME6H');`
+    ]
   ],
 
   themeConfig: {
     logo: "/tsed.svg",
     siteTitle: false,
     apiUrl: "/api.json",
+    team,
     apiRedirectUrl: "",
     repo: "tsedio/tsed",
     githubProxyUrl: "https://api.tsed.io/rest/github/tsedio/tsed",
@@ -560,8 +574,7 @@ export default defineConfig({
           ].sort((a, b) => a.text.localeCompare(b.text))
         }
       ],
-
-      "/api/": getSidebar()
+      "/api/": referenceSidebar
     },
     socialLinks: [
       {icon: "github", link: "https://github.com/tsedio/tsed"},

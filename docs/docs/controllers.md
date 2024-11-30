@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Controllers provided by Ts.ED framework. Use controllers to build your REST API.
-  - name: keywords
-    content: controllers ts.ed express typescript node.js javascript decorators jsonschema class models
+head:
+  - - meta
+    - name: description
+      content: Documentation over Controllers provided by Ts.ED framework. Use controllers to build your REST API.
+  - - meta
+    - name: keywords
+      content: controllers ts.ed express typescript node.js javascript decorators jsonschema class models
 ---
 
 # Controllers

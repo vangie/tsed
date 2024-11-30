@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Use template engine with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and uses TypeScript language.
-  - name: keywords
-    content: template engine tsed-engines ts.ed express typescript node.js javascript decorators
+head:
+  - - meta
+    - name: description
+      content: Use template engine with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and uses TypeScript language.
+  - - meta
+    - name: keywords
+      content: template engine tsed-engines ts.ed express typescript node.js javascript decorators
 ---
 
 # Templating

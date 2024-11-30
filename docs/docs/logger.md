@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Logger by Ts.ED framework.
-  - name: keywords
-    content: logger decorators ts.ed express.js koa.js typescript node.js javascript
+head:
+  - - meta
+    - name: description
+      content: Documentation over Logger by Ts.ED framework.
+  - - meta
+    - name: keywords
+      content: logger decorators ts.ed express.js koa.js typescript node.js javascript
 ---
 
 # Logger

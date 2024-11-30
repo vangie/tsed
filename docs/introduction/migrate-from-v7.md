@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Migrate Ts.ED application from v7 to v8. Ts.ED is built on top of Express and uses TypeScript language.
-  - name: keywords
-    content: migration getting started ts.ed express typescript node.js javascript decorators mvc class models
+head:
+  - - meta
+    - name: description
+      content: Migrate Ts.ED application from v7 to v8. Ts.ED is built on top of Express and uses TypeScript language.
+  - - meta
+    - name: keywords
+      content: migration getting started ts.ed express typescript node.js javascript decorators mvc class models
 ---
 
 # Migrate from v7 to v8

@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Authentication configuration
-  - name: keywords
-    content: ts.ed express typescript auth node.js javascript decorators
+head:
+  - - meta
+    - name: description
+      content: Authentication configuration
+  - - meta
+    - name: keywords
+      content: ts.ed express typescript auth node.js javascript decorators
 ---
 
 # Authentication

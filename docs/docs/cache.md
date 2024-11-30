@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Cache management provided by Ts.ED framework. Use decorator to cache Response or returned value by a service.
-  - name: keywords
-    content: cache ts.ed express koa typescript node.js javascript decorators cache-manager class controller service
+head:
+  - - meta
+    - name: description
+      content: Documentation over Cache management provided by Ts.ED framework. Use decorator to cache Response or returned value by a service.
+  - - meta
+    - name: keywords
+      content: cache ts.ed express koa typescript node.js javascript decorators cache-manager class controller service
 ---
 
 # Cache

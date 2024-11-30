@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over JsonMapper and decorators provided by Ts.ED framework. Use decorator to build your model and map data.
-  - name: keywords
-    content: class model decorators ts.ed express typescript node.js javascript jsonschema json mapper serialization deserialization
+head:
+  - - meta
+    - name: description
+      content: Documentation over JsonMapper and decorators provided by Ts.ED framework. Use decorator to build your model and map data.
+  - - meta
+    - name: keywords
+      content: class model decorators ts.ed express typescript node.js javascript jsonschema json mapper serialization deserialization
 ---
 
 # JsonMapper

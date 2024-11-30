@@ -1,5 +1,6 @@
 import {mapApiReferences} from "@tsed/vitepress-theme/composables/api/mappers/mapApiReferences.js";
-import api from "../public/api.json";
+import api from "../../public/api.json" with {  type: "json" };
+import {writeFile} from "node:fs/promises";
 
 const IS_CORES = /core|@tsed\/di|hooks|schema$|\/exceptions$|engines|json-mapper|open-spec/;
 const IS_PLATFORM = /platform/;
@@ -31,7 +32,7 @@ export function getSidebar() {
         platformModules.push(item);
       } else if (IS_ORM.test(module)) {
         ormModules.push(item);
-      }else {
+      } else {
         thirdParties.push(item);
       }
     });
@@ -56,3 +57,5 @@ export function getSidebar() {
   ];
 }
 
+
+await writeFile(import.meta.dirname + "/../../public/reference-sidebar.json", JSON.stringify(getSidebar(), null, 2));

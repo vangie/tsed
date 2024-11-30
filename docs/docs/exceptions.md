@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Http Exceptions provided by Ts.ED framework. Use class to throw a standard Http error.
-  - name: keywords
-    content: http exceptions ts.ed express typescript node.js javascript decorators jsonschema class models
+head:
+  - - meta
+    - name: description
+      content: Documentation over Http Exceptions provided by Ts.ED framework. Use class to throw a standard Http error.
+  - - meta
+    - name: keywords
+      content: http exceptions ts.ed express typescript node.js javascript decorators jsonschema class models
 ---
 
 # Exceptions

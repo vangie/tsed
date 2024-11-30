@@ -28,12 +28,15 @@
 
 <hr />
 
-> A Node.js and TypeScript Framework on top of Express. It provides a lot of decorators and guidelines to write your code.
-
 ## What it is
 
-Ts.ED is a Node.js and TypeScript Framework on top of Express/Koa.js. Ts.ED is a framework on top of Express/Koa to write your application with TypeScript (or ES6).
-It provides a lot of decorators and guideline to make your code more readable and less error-prone.
+Ts.ED is a modern Node.js framework built with TypeScript. It offers a flexible structure with a fast learning curve, specifically designed to improve the developer experience. Ts.ED provides numerous decorators and guidelines to make your code more readable and less error-prone. It supports various platforms and tools, including Node.js/Bun.js, Express.js/Koa.js, CLI, and serverless architectures (e.g., AWS).
+
+- Multi-platform: Easily build your server-side application using Express.js, Koa.js, CLI, or serverless platforms (e.g., AWS). It supports both Node.js and Bun.js runtimes. Learn more <a class="home-link" href="https://tsed.dev/introduction/capabilities.html">here</a>.
+- Configuration: Stop wasting time on configuration—your application comes preconfigured for a fast start! Try our <a class="home-link" href="https://tsed.dev/introduction/getting-started.html">CLI</a>.
+- Decorators: Use a wide range of decorators to structure your code, define routes, and implement methods with ease. Learn more <a class="home-link" href="https://tsed.dev/introduction/decorators.html">here</a>.
+- Class-based: Define classes as <a class='home-link' href='http://tsed.dev/docs/controllers.html'>Controllers</a>, <a class='home-link' href='http://tsed.dev/docs/model.html'>Models</a>, <a class='home-link' href='http://tsed.dev/docs/providers.html'>Providers (DI)</a>, <a class='home-link' href='http://tsed.dev/docs/pipes.html'>Pipes</a>, and more, with JSON Schema and OpenAPI at the core of the framework.
+- Testing: Testing is not optional—it's essential! Ts.ED includes built-in features to make testing your code simple and efficient. Learn more <a class="home-link" href="https://tsed.dev/docs/testing.html">here</a>.
 
 ## Features
 

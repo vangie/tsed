@@ -3,12 +3,13 @@
   "version": "8.0.4",
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev .",
-    "docs:build": "vitepress build .",
-    "docs:preview": "vitepress preview ."
+    "docs:dev": "yarn build:api:summary && vitepress dev .",
+    "docs:build": "yarn build:api:summary && vitepress build .",
+    "docs:preview": "vitepress preview .",
+    "build:api:summary": "node ./.vitepress/scripts/api-summary.js"
   },
   "dependencies": {
-    "@tsed/vitepress-theme": "1.4.0",
+    "@tsed/vitepress-theme": "1.5.2",
     "@vueuse/core": "10.11.0",
     "axios": "1.7.7",
     "lodash": "4.17.21",

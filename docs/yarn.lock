@@ -734,7 +734,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tsed/docs-new@workspace:."
   dependencies:
-    "@tsed/vitepress-theme": "npm:1.4.0"
+    "@tsed/vitepress-theme": "npm:1.5.2"
     "@vueuse/core": "npm:10.11.0"
     autoprefixer: "npm:^10.4.19"
     axios: "npm:1.7.7"
@@ -746,14 +746,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@tsed/vitepress-theme@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@tsed/vitepress-theme@npm:1.4.0"
+"@tsed/vitepress-theme@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@tsed/vitepress-theme@npm:1.5.2"
   dependencies:
     "@vueuse/core": "npm:10.11.0"
     axios: "npm:1.7.7"
     lucide-vue-next: "npm:^0.436.0"
-  checksum: 10/4b42f36e7513ae6c85ef6433d269f0d48510a4d3c0d1a1a51bfdfd254716039cd9a405140b479f1025b95335003c1f75ad5ec819648627e9294599102cdf93ac
+  checksum: 10/04ce26cf6599b36ca9d28d6162740468ac37d0a0f68679fe982c31ee5ebe926dd9c50734111fa3aba8c1212839963017681e1c2122a592961cad775d6b47edf9
   languageName: node
   linkType: hard
 

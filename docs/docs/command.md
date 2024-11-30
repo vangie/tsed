@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Command provided by Ts.ED framework. Use commands to build your CLI API.
-  - name: keywords
-    content: command ts.ed commander inquirer typescript node.js javascript decorators jsonschema class models
+head:
+  - - meta
+    - name: description
+      content: Documentation over Command provided by Ts.ED framework. Use commands to build your CLI API.
+  - - meta
+    - name: keywords
+      content: command ts.ed commander inquirer typescript node.js javascript decorators jsonschema class models
 ---
 
 # Command

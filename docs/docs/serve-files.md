@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Serve statics files with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and use TypeScript language.
-  - name: keywords
-    content: ts.ed express typescript statics files node.js javascript decorators
+head:
+  - - meta
+    - name: description
+      content: Serve statics files with Ts.ED by using decorators. Ts.ED is built on top of Express/Koa and use TypeScript language.
+  - - meta
+    - name: keywords
+      content: ts.ed express typescript statics files node.js javascript decorators
 ---
 
 # Serve files

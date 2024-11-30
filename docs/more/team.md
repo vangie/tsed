@@ -13,8 +13,8 @@ import team from '../team.json';
 const members = team.map((member) => {
    return {
      avatar: member.src,
-     name: member.title + ' - ' + member.job,
-     title: member.role,
+     name: member.title,
+     title: member.role + ' - ' + member.job,
      links: [
         { icon: 'github', link: 'https://github.com/' + member.github },
         member.twitter && { icon: 'twitter', link: 'https://x.com/' + member.twitter }

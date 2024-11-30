@@ -1,9 +1,11 @@
 ---
-meta:
-  - name: description
-    content: Documentation over Providers / DI provided by Ts.ED framework. Use providers to build your backend services.
-  - name: keywords
-    content: providers di ioc ts.ed express typescript node.js javascript decorators jsonschema class models
+head:
+  - - meta
+    - name: description
+      content: Documentation over Providers / DI provided by Ts.ED framework. Use providers to build your backend services.
+  - - meta
+    - name: keywords
+      content: providers di ioc ts.ed express typescript node.js javascript decorators jsonschema class models
 ---
 
 # DI & Providers

@@ -3,6 +3,7 @@ api
 .vitepress/cache
 .vitepress/dist
 public/api.json
+public/reference-sidebar.json
 
 # Yarn
 .pnp.*
@@ -13,4 +14,3 @@ public/api.json
 !.yarn/cache
 !.yarn/sdks
 !.yarn/versions
-

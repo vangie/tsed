@@ -3,3 +3,7 @@
   padding-right: 0;
 }
 
+
+.box a {
+  color: var(--vp-c-brand-1);
+}
