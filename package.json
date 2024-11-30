@@ -51,7 +51,7 @@
     "docs:serve": "yarn api:build && yarn vitepress:serve",
     "docs:publish": "CI=1 monorepo publish ghpages",
     "vitepress:build": "cd ./docs && yarn docs:build",
-    "vitepress:serve": "yarn docs:install && cd docs && yarn docs:serve -p 8080",
+    "vitepress:serve": "yarn docs:install && cd docs && yarn docs:dev",
     "prettier": "prettier '**/*.{ts,js,json,md,yml,yaml}' --write",
     "release": "semantic-release",
     "release:dryRun": "semantic-release --dry-run",

@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar: false
 meta:
   - name: description
     content: Api Reference of Ts.ED. Use decorator to build your model and map data.

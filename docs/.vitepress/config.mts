@@ -1,6 +1,8 @@
-import {defineConfig} from "vitepress";
 import {apiAnchor} from "@tsed/vitepress-theme/markdown/api-anchor/api-anchor.js";
+import {defineConfig} from "vitepress";
 import pkg from "../../package.json";
+import {getSidebar} from "./api.js";
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -165,7 +167,7 @@ export default defineConfig({
           },
           {text: "Upload files", link: "/docs/upload-files"},
           {text: "Customize 404", link: "/docs/not-found-page"},
-          {text: "Api references", link: "/api"},
+          {text: "Api references", link: "/api"}
         ]
       },
       {
@@ -557,7 +559,9 @@ export default defineConfig({
             }
           ].sort((a, b) => a.text.localeCompare(b.text))
         }
-      ]
+      ],
+
+      "/api/": getSidebar()
     },
     socialLinks: [
       {icon: "github", link: "https://github.com/tsedio/tsed"},
