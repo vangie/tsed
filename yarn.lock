@@ -6717,6 +6717,7 @@ __metadata:
   dependencies:
     "@tsed/barrels": "workspace:*"
     "@tsed/engines": "workspace:*"
+    "@tsed/logger-file": "npm:>=7.0.1"
     "@tsed/platform-http": "workspace:*"
     "@tsed/typescript": "workspace:*"
     cross-env: "npm:7.0.3"
@@ -7087,6 +7088,18 @@ __metadata:
     vitest: "npm:2.1.2"
   languageName: unknown
   linkType: soft
+
+"@tsed/logger-file@npm:>=7.0.1":
+  version: 7.0.1
+  resolution: "@tsed/logger-file@npm:7.0.1"
+  dependencies:
+    streamroller: "npm:^3.1.5"
+    tslib: "npm:2.6.2"
+  peerDependencies:
+    "@tsed/logger": 7.0.1
+  checksum: 10/ea7b3c46f67b8963e7c68533d1ec5b65fe9e0b3a8d60ac821acc3354593e7933f1931ad6584efe60b8111dc9edb8524f06529de09fc06f2aabab45a92ef0549e
+  languageName: node
+  linkType: hard
 
 "@tsed/logger@npm:7.0.1, @tsed/logger@npm:^7.0.1":
   version: 7.0.1
@@ -16363,7 +16376,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:8.1.0":
+"fs-extra@npm:8.1.0, fs-extra@npm:^8.1.0":
   version: 8.1.0
   resolution: "fs-extra@npm:8.1.0"
   dependencies:
@@ -27117,6 +27130,17 @@ __metadata:
   version: 3.3.0
   resolution: "stream-transform@npm:3.3.0"
   checksum: 10/7bd9603fc2b838f07de570378c4b38ddb5e482088c0d06caf49058ee8afc64bb7e5ec436dc80ea43d0d6813e79e97420b2d10f5bedf94a362afcb8826fa374f8
+  languageName: node
+  linkType: hard
+
+"streamroller@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "streamroller@npm:3.1.5"
+  dependencies:
+    date-format: "npm:^4.0.14"
+    debug: "npm:^4.3.4"
+    fs-extra: "npm:^8.1.0"
+  checksum: 10/2e4fe61ab91d24e6a9add67418ca9b8e19bc49f4037e1f8b7ae2e480a1d7750423f470d111d138d921a538ae4777c4eb15b00f9cc2a0d4fd72829687889b0c63
   languageName: node
   linkType: hard
 

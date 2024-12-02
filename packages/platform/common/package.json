@@ -66,6 +66,7 @@
     }
   ],
   "dependencies": {
+    "@tsed/logger-file": ">=7.0.1",
     "@tsed/platform-http": "workspace:*",
     "tslib": "2.7.0"
   },
