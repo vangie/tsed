@@ -8,7 +8,7 @@ when they occur.
 
 This schema resume the order of hooks regard to the providers:
 
-[![hooks](./assets/hooks-v8.png)](./assets/hooks-v8.png)
+[![hooks](/hooks-v8.png)](/hooks-v8.png)
 
 Here is the related code described by the previous schema:
 
