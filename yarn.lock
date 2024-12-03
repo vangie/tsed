@@ -8173,7 +8173,6 @@ __metadata:
     ajv: "npm:^8.17.1"
     change-case: "npm:^5.4.4"
     eslint: "npm:9.12.0"
-    fs-extra: "npm:^11.2.0"
     json-schema: "npm:0.4.0"
     picomatch: "npm:2.3.1"
     picomatch-browser: "npm:^2.2.6"
