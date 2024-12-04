@@ -1,6 +1,6 @@
 {
   "name": "@tsed/docs-new",
-  "version": "8.0.7",
+  "version": "8.1.0",
   "type": "module",
   "scripts": {
     "docs:dev": "yarn build:api:summary && vitepress dev .",
