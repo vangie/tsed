@@ -287,6 +287,15 @@ import fs from "fs-extra";
 fs.readFile();
 ```
 
+::: warning
+This import notation works only if have `"esModuleInterop": true` in your tsconfig.json. Otherwhise, use:
+
+```ts
+import * as fs from "fs-extra"
+```
+
+:::
+
 Unfortunately, you have to check each module to see if it supports ESM named import.
 
 #### json files
