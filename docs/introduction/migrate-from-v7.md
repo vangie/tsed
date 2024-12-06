@@ -269,7 +269,7 @@ If you use CommonJS modules, you have to add the `.js` extension in your import 
 + import * as controllers from "./controllers/index.js";
 ```
 
-If you use lodash for example, you have to replace `import {get} from "lodash";` by `import {get} from "lodash.js";`
+If you use lodash for example, you have to replace `import get from "lodash/get";` by `import get from "lodash/get.js";`
 
 Some module doesn't support ESM named import like `fs-extra`:
 
